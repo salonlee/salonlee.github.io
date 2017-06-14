@@ -1,0 +1,88 @@
+/* 最外层包裹层 */
+div#proscenium {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    min-height: 100%;
+    padding: 35px;
+    padding-top: 15px;
+}
+
+/* 顶部导航 */
+div.polaris {
+    font-family: blade;
+    font-size: 3em;
+}
+
+/* 缩略图 */
+img.thumbnail {
+    width: 60px;
+}
+
+/* 头部 */
+div#chief {
+    margin: 15px auto 30px;
+}
+
+/* 个人简介 */
+div.profile {
+    /* 暂时隐藏起来，以后再解锁封印 */
+    display: none;
+    width: 450px;
+    margin: 15px auto;
+}
+div.profile > div, div.profile > img {
+    float: left;
+    display: inline-block;
+}
+div.profile > div {
+    width: 350px;
+    margin-left: 10px;
+}
+div.profile h6 {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+/* 文章主体 */
+div#principal div.diaries {
+    margin-top: 35px;
+}
+div#principal div.sketch {
+    color: #90c;
+}
+/* 最难搭的diary架子在这里 */
+div#principal div.diary {
+    float: left;
+    margin: 0 auto 1em;
+    height: 75px;
+}
+div#principal div.diary:hover {
+    color: #90c;
+    cursor: pointer;
+}
+div#principal div.diary > img,
+div#principal div.diary > div {
+    float: left;
+}
+div#principal div.diary > div {
+    width: 200px;
+}
+div#principal div.diary > div {
+    margin-left: 8px;
+    margin-right: 3em;
+}
+div#principal div.diary > div p {
+    line-height: 2em;
+}
+/* 尾部 */
+div#tail {
+    color: #666;
+    text-align: center;
+    margin: 20px auto 25px;
+}
+div#tail > div {
+    margin-top: 15px;
+}
+

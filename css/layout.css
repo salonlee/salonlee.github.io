@@ -1,0 +1,61 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #444;
+    font-family: "宋体";
+    font-size: 12px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* clear padding & margin */
+h1, h2, h3, h4, h5, h6,
+span, div, i, img, p {
+    padding: 0;
+    margin: 0;
+}
+
+/* h1~h6 reset */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-size: 1em;
+}
+
+i {
+    display: block;
+}
+
+/* @font-face */
+@font-face {
+    font-family: rays;
+    src: url("../fonts/rays.ttf");
+}
+@font-face {
+    font-family: blade;
+    src: url("../fonts/blade.ttf");
+}
+
+/* clear float */
+.clr {
+    clear: both;
+}
+
+/* english */
+span.en {
+    font-family: Verdana;
+}
+
+/* split line */
+i.cutline {
+    width: 100%;
+    border-top: 1px solid #000;
+    margin: 3px auto;
+}
+i.cutline.bold {
+    border-top: 4px solid #000;
+}
+
