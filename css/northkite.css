@@ -1,0 +1,99 @@
+/* 最外层包裹层 */
+div#proscenium {
+    width: 55%;
+    margin: 0 auto;
+    background-color: #fff;
+    min-height: 100%;
+    padding: 35px;
+    padding-top: 15px;
+    padding-bottom: 80px;
+}
+
+/* 内容不足时固定底部栏在底部 */
+div#tail {
+    width: 55%;
+    margin: 0 auto;
+    height: 45px;
+    margin-top: -50px;
+    padding: 0 35px;
+    color: #666;
+    text-align: center;
+}
+
+/* 顶部导航 */
+div.polaris {
+    margin-bottom: 15px;
+}
+
+/* 缩略图 */
+img.thumbnail {
+    width: 60px;
+}
+
+/* 头部 */
+div#chief {
+    margin: 15px auto 30px;
+}
+
+
+
+/* 文章主体 */
+div#principal {
+
+}
+div#principal div.diaries {
+    margin-top: 35px;
+}
+/* 一句话和日期 */
+div#principal div.sketch {}
+
+
+/* diary 日志主体 */
+.diary {
+    padding: 35px 10px;
+}
+.diary h6 {
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #00D2DB;
+}
+.diary p {
+    line-height: 1.5;
+    margin: 25px auto;
+}
+
+/* 分段符 */
+.diary i.br {
+    height: 50px;
+    display: block;
+}
+.diary i.dashed {
+    height: 0;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    border-top: 1px dashed #000;
+}
+
+/* 尾部 */
+div#tail > div {
+    margin-top: 15px;
+}
+
+
+ /* 注释 */
+div.anno {
+    color: #888
+}
+
+.diary div.anno h6 {
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: normal;
+    color: inherit;
+    margin-top: 15px;
+}
+.diary div.anno p {
+    line-height: 1.5;
+    margin: 0 auto 15px;
+}

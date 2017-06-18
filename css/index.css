@@ -6,12 +6,23 @@ div#proscenium {
     min-height: 100%;
     padding: 35px;
     padding-top: 15px;
+    padding-bottom: 80px;
+}
+
+/* 内容不足时固定底部栏在底部 */
+div#tail {
+    width: 80%;
+    margin: 0 auto;
+    height: 45px;
+    margin-top: -50px;
+    padding: 0 35px;
+    color: #666;
+    text-align: center;
 }
 
 /* 顶部导航 */
 div.polaris {
-    font-family: blade;
-    font-size: 3em;
+    margin-bottom: 15px;
 }
 
 /* 缩略图 */
@@ -26,8 +37,6 @@ div#chief {
 
 /* 个人简介 */
 div.profile {
-    /* 暂时隐藏起来，以后再解锁封印 */
-    display: none;
     width: 450px;
     margin: 15px auto;
 }
@@ -46,6 +55,9 @@ div.profile h6 {
 }
 
 /* 文章主体 */
+div#principal {
+
+}
 div#principal div.diaries {
     margin-top: 35px;
 }
@@ -77,12 +89,10 @@ div#principal div.diary > div p {
     line-height: 2em;
 }
 /* 尾部 */
-div#tail {
-    color: #666;
-    text-align: center;
-    margin: 20px auto 25px;
-}
+
 div#tail > div {
     margin-top: 15px;
 }
 
+
+/* 内容不足时固定底部栏 */

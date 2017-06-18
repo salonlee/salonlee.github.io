@@ -12,14 +12,14 @@ html, body {
     box-sizing: border-box;
 }
 
-/* clear padding & margin */
+/* 清margin和padding */
 h1, h2, h3, h4, h5, h6,
 span, div, i, img, p {
     padding: 0;
     margin: 0;
 }
 
-/* h1~h6 reset */
+/* h1~h6重置 */
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
     font-size: 1em;
@@ -29,7 +29,7 @@ i {
     display: block;
 }
 
-/* @font-face */
+/* @font-face 字体 */
 @font-face {
     font-family: rays;
     src: url("../fonts/rays.ttf");
@@ -39,17 +39,18 @@ i {
     src: url("../fonts/blade.ttf");
 }
 
-/* clear float */
-.clr {
-    clear: both;
-}
+/* 清除浮动，左浮动，右浮动 */
+.clr { clear: both; }
+.fl { float: left; }
+.fr { float: right; }
 
-/* english */
-span.en {
-    font-family: Verdana;
-}
+/* 字体加粗 */
+.bold { font-weight: bold; }
 
-/* split line */
+/* 英文字体 */
+span.en { font-family: Verdana; }
+
+/* 分隔线 */
 i.cutline {
     width: 100%;
     border-top: 1px solid #000;
@@ -58,4 +59,31 @@ i.cutline {
 i.cutline.bold {
     border-top: 4px solid #000;
 }
+
+/* ul,li重置 */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    display: inline-block;
+}
+
+/* a重置 */
+a, a:link, a:visited, a:hover, a:active {
+    outline: 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #90c;
+}
+
+/* 文本居中，居左，居右 */
+.tc { text-align: center }
+.tl { text-align: left }
+.tr { text-align: right }
+
 
